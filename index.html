@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3618d78403.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="menu-container">
+            <div class="menu">
+                <button class="add">
+                    Add
+                </button>
+                <button class="saved">
+                    Saved
+                </button>
+                <div class="background">
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="middle-container">
+            <div class="add-container">
+                <div class="add-header">
+                    <h2>Add The Book</h2>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="book-name" class="book-name" required autocomplete="off" >
+                    <label for="book-name" title="Add the book name" data-title="Book Name"></label>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="book-writer" class="book-writer" required autocomplete="off" >
+                    <label for="book-writer" title="Add the book writer" data-title="Book Writer"></label>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="page-count" class="page-count" required autocomplete="off" >
+                    <label for="page-count" title="Add the book page count" data-title="Book Page Count"></label>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="book-publisher" class="book-publisher" required autocomplete="off" >
+                    <label for="book-publisher" title="Add the book publisher" data-title="Book Publisher"></label>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="book-type" class="book-type" required autocomplete="off" >
+                    <label for="book-type" title="Add the book type" data-title="Book Type"></label>
+                </div>
+                <div class="form-input">
+                    <input type="text" id="book-price" class="book-price" required autocomplete="off" >
+                    <label for="book-price" title="Add the book price    (₺)" data-title="Book Price    (₺)"></label>
+                </div>
+                <p class="warning"></p>
+                <button class="add-book"><i class="fa-solid fa-plus"></i></button>
+               
+            </div>
+         
+                <div class="output-container">
+                    
+                    <!-- <div class="book-container">
+                        <h2 class="book-id">1</h2>
+
+                        <div class="form-output">
+                            <input type="text" id="output-book-name" class="output" value="Hayvanlar Çifliği" required autocomplete="off"  disabled>
+                            <label for="output-book-name" title="Add the book name" data-title="Book Name"></label>
+                        </div>
+                        <div class="form-output">
+                            <input type="text" id="output-book-writer" class="output" required autocomplete="off" disabled >
+                            <label for="output-book-writer" title="Add the book writer" data-title="Book Writer"></label>
+                        </div>
+                        <div class="form-output">
+                            <input type="text" id="output-page-count" class="output" required autocomplete="off" disabled >
+                            <label for="output-page-count" title="Add the book page count" data-title="Book Page Count"></label>
+                        </div>
+                        <div class="form-output">
+                            <input type="text" id="output-book-publisher" class="output" required autocomplete="off" disabled>
+                            <label for="output-book-publisher" title="Add the book publisher" data-title="Book Publisher"></label>
+                        </div>
+                        <div class="form-output">
+                            <input type="text" id="output-book-type" class="output" required autocomplete="off" disabled>
+                            <label for="output-book-type" title="Add the book type" data-title="Book Type"></label>
+                        </div>
+                        <div class="form-output">
+                            <input type="text" id="output-book-price" class="output" required autocomplete="off" disabled>
+                            <label for="output-book-price" title="Add the book price" data-title="Book Price"></label>
+                        </div>
+
+
+                        <div class="book-controller">
+                        
+                            <i class="fa-solid fa-paintbrush editBtn-add" id="editBtn" onclick="editToggle()"> </i>
+                            <i class="fa-solid fa-trash-can" id="clearBtn"> </i>
+                        </div>
+                    </div> -->
+
+
+                    
+                
+                </div>
+        </div>
+
+        <div class="footer">
+            <div class="all-book-count">
+                <h1 class="all-count-header">
+              
+                </h1>
+                <p>Book</p>
+            </div>
+            <div class="all-book-page">
+                <h1 class="all-page-header">
+                
+                </h1>
+                <p>Page</p>
+            </div>
+            <div class="all-book-price">
+                <h1 class="all-price-header">
+                
+                </h1>
+                <p>Price</p>
+            </div>
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
