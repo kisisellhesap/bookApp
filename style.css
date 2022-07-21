@@ -286,7 +286,7 @@ opacity:0;
     transform: scale(1) ;
     border-radius: 5px ;
     background-color: transparent;
-    overflow-y :scroll;
+    overflow-y: scroll;
 
     padding: 1rem;
 }
@@ -383,6 +383,13 @@ transform: translate(0px,-20px);
     background: #51557E;
   }
 
+
+
+.saved-effect::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 0px;
+  }
+  
 
 
 
