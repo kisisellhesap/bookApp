@@ -9,13 +9,14 @@
 
 body {
     background-color: #1B2430 ;
-    overflow: hidden;
+
 
 }
 
 main {
     width: 100%;
     min-width: 320px;
+    height: 120%;
 
 }
 
