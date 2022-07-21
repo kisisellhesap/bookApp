@@ -547,6 +547,11 @@ transform: scale(1);
     .saved-effect {
         height: 400px;
     }
+
+    .book-container {
+        width: 70%;
+        height: 435px;
+    }
     .add-effect{
         background-color:transparent;
     }
