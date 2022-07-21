@@ -538,7 +538,8 @@ transform: scale(1);
 
 
     .add-container {
-        left: 3;
+        left:20;
+        height: 400px;
     }
 
     .all-book-count {
