@@ -16,7 +16,7 @@ body {
 main {
     width: 100%;
     min-width: 320px;
-    height: 120%;
+    height: 100%;
 
 }
 
@@ -71,9 +71,10 @@ save 125
 
 .middle-container {
     width:100%;
-    height:75%;
+    height:65.9%;
     display: flex;
     position: relative;
+    background-color: #fff;
 
 }
 
@@ -272,7 +273,7 @@ opacity:0;
 
 .saved-effect {
     width:100%;
-    height: 520px;
+    height: 475px;
     position: absolute;
     display: flex;
     flex-direction:row;
@@ -282,13 +283,13 @@ opacity:0;
     justify-content:center;
     right:120; 
     left: 0;
-    top: 15;
+    top:0;
     transform: scale(1) ;
     border-radius: 5px ;
     background-color: transparent;
     overflow-y: scroll;
+    background-color: aqua;
 
-    padding: 1rem;
 }
 .saved-effect >* {
     opacity: 1;
@@ -395,7 +396,7 @@ transform: translate(0px,-20px);
 
 .footer {
 width: 100%;
-height:15%;
+height:24%;
 gap: 5px;
 display: flex;
 justify-content: center;
@@ -411,6 +412,7 @@ color: #fff;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    text-align: center;
 
 }
 
@@ -537,19 +539,19 @@ transform: scale(1);
     }
 
     .all-book-count {
-        width: 100%;
+        width: 32%;
         background-color: #51557E;
         padding: 1rem;
     }
     
     .all-book-page {background-color: #51557E;
         padding: 1rem;
-        width: 100%;
+        width: 32%;
     }
     
     .all-book-price {
         background-color: #51557E;
-        width: 100%;
+        width: 32%;
         padding: 1rem;
     }
 
